@@ -1,6 +1,6 @@
 class Puppy
-  attr_accessor :age
-  attr_reader :name, :breed
+  attr_accessor :name, :age
+  attr_reader :breed
   def initialize(options)
     @name = options[:name]
     @breed = options[:breed]
