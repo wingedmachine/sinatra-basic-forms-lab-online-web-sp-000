@@ -1,4 +1,4 @@
 class Puppy
-  def initialize
+  def initialize(options)
   end
 end
