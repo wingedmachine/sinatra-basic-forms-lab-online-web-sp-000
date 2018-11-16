@@ -3,6 +3,6 @@ class Puppy
   def initialize(options)
     @name = options[:name]
     @breed = options[:breed]
-    @age = options[:age]
+    @age = options[:months_old]
   end
 end
